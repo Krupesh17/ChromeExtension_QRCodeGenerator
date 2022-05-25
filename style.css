@@ -1,0 +1,84 @@
+/* Imported Google Font: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 300px;
+}
+
+.container {
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: #212121;
+}
+
+.inputGroup {
+    border: 1px solid #dedede;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+
+#urlInput {
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+#generateBtn {
+    border: 0;
+    background-color: #6721ea;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+
+#downloadBtn {
+    border: 0;
+    background-color: #161616; 
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+
+#downloadBtn:hover {
+    cursor: pointer;
+    background-color: #212121; 
+    color: white;
+}
+
+#generateBtn:hover {
+    cursor: pointer;
+    background-color: #581dc5;
+    color: white;
+}
+
+.qrContainer {
+    display: none;
+}
+
+.qrInnerContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    margin-bottom: 0;
+    border: 1px solid #dedede;
+}
